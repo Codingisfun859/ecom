@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Trendify</h2>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#shop">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Headphones & Audio</a></li>
+                        <li><a href="#">Smart Home</a></li>
+                        <li><a href="#">Gaming Gear</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> 
+        </div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Discover Premium Products</h1>
+            <p>Explore our curated collection of high-quality products designed to enhance your lifestyle. 
+            Find everything you need with exceptional quality and style.</p>
+            <a href="#" class="btn">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+    <section class="arrivals" id="shop">
+        <div class="h2-handing">
+            <h2>New Arrivals</h2>
+            <p>Be the first to discover our latest collection of cutting-edge products</p>
+        </div>
+        <div class="box">
+            <div class="card">
+                <div class="img-container">
+                    <img src="./Ultra-Fast SSD Drive.jpg">
+                    <a href="#" class="tag" id="tag-new">New</a>
+                </div>
+                <div class="card-infor">
+                    <h4>Ultra-Fast SSD Drive</h4>
+                    <div class="price">
+                        <h3>$199.99</h3>
+                        <del>$249.99</del>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./Smart Air Purifier.jpg">
+                    <a href="#" class="tag">Hot</a>
+                </div>
+                <div class="card-infor">
+                    <h4>Smart Air Purifier</h4>
+                    <div class="price">
+                        <h3>$329.99</h3>
+                        <del>$399.99</del>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./Mechanical Gaming Keyboard.jpg">
+                    <a href="#" class="tag" id="tag-new">New</a>
+                </div>
+                <div class="card-infor">
+                    <h4>Mechanical Gaming Keyboard</h4>
+                    <div class="price">
+                        <h3>$179.99</h3>
+                        <del>$219.99</del>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./Wireless Earbuds Pro.jpg">
+                    <a href="#" class="tag" id="tag-tranding">Tranding</a>
+                </div>
+                <div class="card-infor">
+                    <h4>Wireless Earbuds Pro</h4>
+                    <div class="price">
+                        <h3>$149.99</h3>
+                        <del>$199.99</del>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="h2-handing">
+            <h2>Featured Products</h2>
+            <p>Discover our handpicked selection of premium products designed 
+            to elevate your everyday experience</p>
+        </div>
+         <div class="box">
+            <div class="card">
+                <div class="img-container">
+                    <img src="./hadphones.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Premium Wireless Headphones</h4>
+                    <div class="price">
+                        <h3>$299.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./watch.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Smart Fitness Watch</h4>
+                    <div class="price">
+                        <h3>$249.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./speaker.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Portable Bluetooth Speaker</h4>
+                    <div class="price">
+                        <h3>$159.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./charging-pad.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Wireless Charging Pad</h4>
+                    <div class="price">
+                        <h3>$79.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./laptop.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Ultra-Slim Laptop Stand</h4>
+                    <div class="price">
+                        <h3>$89.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./home-hub.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Smart Home Hub</h4>
+                    <div class="price">
+                        <h3>$79.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="./camera-lens.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Professional Camera Lens</h4>
+                    <div class="price">
+                        <h3>$599.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+             <div class="card">
+                <div class="img-container">
+                    <img src="./gaming-mouse.jpg">
+                </div>
+                <div class="card-infor">
+                    <h4>Ergonomic Gaming Mouse</h4>
+                    <div class="price">
+                        <h3>$129.99</h3>
+                    </div>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call-to-action">
+        <div class="action-container">
+            <div class="deal">
+                <h3>Deal of the day!</h3>
+                <p>Why wait? Explore our top-rated products and grab what you love before it’s gone. 
+                Enjoy exclusive offers, fast shipping, and quality you can trust.</p>
+                
+                <a href="#" class="call-btn">Grab The Deal Now</a>
+            </div>
+            <div class="discount">
+                <h1>70%</h1>
+                <p class="discount-text">Limited Time Offer</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="h2-handing">
+            <h2>What Our Customers Say</h2>
+            <p>Don't just take our word for it - hear from thousands of satisfied customers</p>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="./testimonial1.jpg">
+                    <div>
+                        <h5>Sarah Johnson</h5>
+                        <p>Tech Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>"Absolutely amazing quality! I've ordered multiple items and each one exceeded my expectations. 
+                The customer service is outstanding and delivery is always on time."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="./testimonial2.jpg">
+                    <div>
+                        <h5>Michael Chen</h5>
+                        <p>Software Developer</p>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>"Best shopping experience I've had online. The products are exactly as
+                described and the build quality is fantastic.Highly recommend to anyone 
+                looking for premium items."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-img">
+                    <img src="./testimonial3.jpg">
+                    <div>
+                        <h5>Emily Rodriguez</h5>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>"I'm impressed with both the product quality and the seamless shopping experience. 
+                Everything arrived perfectly packaged and works flawlessly. Will definitely shop here again!"</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="Contact">
+        <div class="footer">
+            <div class="footer-card">
+                <h2 class="logo" id="logo">Trendify</h2>
+                <p>Your trusted destination for premium products. 
+                We curate the finest selection of items to enhance your 
+                lifestyle with quality and style.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h5>Quick Links</h5>
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <h5>Support</h5>
+                <div class="links">
+                    <a href="#">Help Center</a>
+                    <a href="#">Shipping Info</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Size Guide</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy;2025 Trendify. All rights reserved.</p>
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('nav ul');
+
+        hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+        });
+</script>
+</body>
+</html>
