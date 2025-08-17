@@ -485,6 +485,9 @@ hr {
   .copyright{
     display: block;
     }
-
+.call-to-action{
+    height: auto;
+    }
 
 }
+
