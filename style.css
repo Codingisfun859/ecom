@@ -398,15 +398,19 @@ footer{
     font-size: .8rem;
     padding-bottom: 0.7rem;
 }
-.social-icons a{
+.social-icons button{
+    border: none;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 6px 10px;
     background-color: var(--third);
     border-radius: 50%;
     color: var(--primary);
     display: inline-block;
     margin-right: 5px;
     transition: 0.3s;
+}
+.social-icons a{
+    color: #6C63FF;
 }
 
 .social-icons a:hover i{
@@ -490,4 +494,5 @@ hr {
     }
 
 }
+
 
